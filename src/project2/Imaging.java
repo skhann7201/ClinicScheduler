@@ -18,8 +18,8 @@ public class Imaging extends Appointment {
      * @param room      the Radiology room for the imaging appointment
      */
     public Imaging(Date date, Timeslot timeslot, Person patient, Radiology room) {
-        super(date, timeslot, patient); // Call the parent constructor
-        this.room = room; // Set the specific room for Imaging
+        super(date, timeslot, patient);
+        this.room = room;
     }
 
     /**
